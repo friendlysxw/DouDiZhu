@@ -1,0 +1,32 @@
+body{
+    background-image: url("../images/background_index.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-color: #F8F4CF;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    position: absolute;
+    width:50%;
+    height: 500px;
+    top:25%;
+}
+legend{
+    font-size:30px;
+}
+input{
+    width: 80%;
+    height: 30px;
+    margin-top: 15px;
+}
+button[type="submit"]{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: skyblue;
+    border-radius:20px;
+    font-weight: bold;
+    color:#333;
+    font-size:20px;
+}

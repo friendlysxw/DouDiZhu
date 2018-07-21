@@ -1,0 +1,39 @@
+body{
+    background-color: #6A6A6A;
+    
+}
+.hall{
+    width: 80%;
+    margin: 20px auto;
+}
+ul{
+    list-style: none;
+    width: 100%;
+}
+ul li{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+ul a{
+    display:block;
+    width:100%;
+}
+ul a img{
+    width: 100%;
+}
+.hall span{
+    font-size:20px;
+    color:#fff;
+}
+.hall span i{
+    color:red;
+}
+.wel{
+    text-align: center;
+    margin: 0 auto;
+    color: #333;
+    font-size:30px;
+    font-weight: bold;
+    text-shadow:0px 0px 20px #fff;
+}

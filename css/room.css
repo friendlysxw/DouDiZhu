@@ -1,0 +1,234 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #6A6A6A;
+    
+}
+
+.box{
+    position: relative;
+    width:70%;
+    height: 100%;
+    margin: 0 auto;
+}
+.peasant1,.peasant2,.peasant3{
+    width:20%;
+    position: absolute;
+}
+/* 桌子位置 */
+.box .desk{
+    width: 100%;
+    position: absolute;
+    top:10%;
+}
+.desk .deal_poker{
+    position: absolute;
+    width: 5rem;
+    height: 3rem;
+    left: 50%;
+    top: 30%;
+    transform:translateX(-50%);
+    background-color: skyblue;
+    z-index: 10;
+    font-size:1rem;
+    font-weight:bold;
+    border-radius:30%;
+    display:none;
+}
+/* 抢地主按钮 */
+.desk .qianglandlord{
+    position: absolute;
+    width: 20rem;
+    height: 3rem; 
+    left: 50%;
+    top: 35%;
+    transform:translateX(-50%);
+    z-index: 10;
+    
+    font-weight:bold;
+    border-radius:30%;   
+    display:none;
+}
+.desk .qianglandlord button{
+    width: 40%;
+    height: 100%;
+    font-size:1rem;
+    margin-left: 5px;
+    border-radius:20px;
+    background-color: skyblue;
+}
+/* 出牌按钮 */
+.play-poker{
+    position: absolute;
+    width: 20rem;
+    height: 3rem; 
+    left: 80%;
+    top: 35%;
+    transform:translateX(-50%);
+    z-index: 10;
+    font-weight:bold;
+    border-radius:30%;   
+    display:none;
+}
+.play-poker button{
+    float: left;
+    width: 30%;
+    height: 80%;
+    font-size:1rem;
+    margin-left: 5px;
+    border-radius:20px;
+    background-color: skyblue;
+}
+/* 准备按钮 */
+.desk .prep{
+    position: absolute;
+    width: 8rem;
+    height: 3rem;
+    left: 50%;
+    top: 30%;
+    transform:translateX(-50%);
+    background-color: skyblue;
+    z-index: 10;
+    font-size:1rem;
+    font-weight:bold;
+    border-radius:30%;   
+    display:none;
+}
+/* 人物位置 */
+.box .peasant1{
+    top: 15%;
+    right: -10%;
+}
+.box .peasant1 i{
+    position: absolute;
+    left: -100px;
+    top:50%;
+    font-size:1.5rem;
+    color:red;
+    font-weight: bold;
+}
+.box .peasant2{
+    top: 15%;
+    left: -10%;
+}
+.box .peasant2 i{
+    position: absolute;
+    right: -100px;
+    top:50%;
+    font-size:1.5rem;
+    color:red;
+    font-weight: bold;
+}
+
+.box .peasant3{
+    top:70%;
+    left:40%;
+    font-size:1.5rem;
+    color:red;
+    font-weight: bold;
+}
+.box .peasant3 i{
+    position: absolute;
+    width: 100px;
+    top:0px;
+    right:-100%;
+}
+
+
+.box>div span{
+    position: absolute;
+    top: 0px;
+    left:-50px;
+    font-size:20px;
+    color:#fff;
+    padding-right: 50px;
+}
+.box>div img{
+    width: 100%;
+    border-radius:50%;
+}
+
+/* 手里扑克位置 */
+.poker{
+    position: absolute;
+    width: 1200px;
+    height: 94px;
+    top:50%;
+    left:50%;
+    margin-left: -600px;
+}
+.poker ul{
+    position: relative;
+    display:inline-block;
+    height: 100%;
+    margin-left:45%;
+    transform:translate(-40%, 0);
+}
+.poker ul li{
+    float: left;
+    width: 68.5px;
+    height: 100%;
+    margin-left: -38px;
+    background-image: url("../images/poker_1.png");
+    border:1px solid #000;
+}
+/* 刚刚打出去的牌 */
+.just_play{
+    position: absolute;
+    width: 1200px;
+    height: 94px;
+    top:25%;
+    left:50%;
+    margin-left:-600px;
+}
+.just_play ul{
+    display:inline-block;
+    height: 100%;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+.just_play li{
+    float: left;
+    width: 68.5px;
+    height: 100%;
+    margin-left: -38px;
+    background-image: url("../images/poker_1.png");
+    border:1px solid #000;
+}
+/* 三张地主牌 */
+.landlord3{
+    position: absolute;
+    width: 1200px;
+    height: 94px;
+    left:50%;
+    margin-left:-600px;
+}
+.landlord3 ul{
+    display:inline-block;
+    height: 100%;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+.landlord3 li{
+    float: left;
+    width: 68.5px;
+    height: 100%;
+    background-image: url("../images/poker_1.png");
+    border:1px solid #000;
+}
+
+/* 出牌提示 */
+.prompt{
+    position: absolute;
+    top:-1.5em;
+    right:0px;
+    font-size:40px;
+    color:red;
+    padding-right: 50px;  
+    z-index:10;
+}
+/* 叫地主按钮 */
+
+

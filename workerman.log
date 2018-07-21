@@ -1,0 +1,1336 @@
+2018-07-02 12:08:30 pid:1 Worker process terminated with ERROR: E_RECOVERABLE_ERROR "Object of class Workerman\Connection\TcpConnection could not be converted to string in F:\www\项目管理\项目进行中\playPoker\server.php on line 20"
+2018-07-02 12:26:09 pid:1 Exception: You can't send(object) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(Object(Workerman\Connection\TcpConnection), Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(20): Workerman\Connection\TcpConnection->send(Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'asdfdsf')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'asdfdsf')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(26): Workerman\Worker::runAll()
+#11 {main}
+2018-07-02 12:26:09 pid:1 Worker process terminated
+2018-07-03 16:38:41 pid:1 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in F:\www\项目管理\项目进行中\playPoker\server.php:10
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 F:\www\项目管理\项目进行中\playPoker\server.php(31): Workerman\Worker::runAll()
+#9 {main}
+2018-07-03 16:38:41 pid:1 Worker process terminated
+2018-07-03 16:38:44 pid:1 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in F:\www\项目管理\项目进行中\playPoker\server.php:10
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 F:\www\项目管理\项目进行中\playPoker\server.php(31): Workerman\Worker::runAll()
+#9 {main}
+2018-07-03 16:38:44 pid:1 Worker process terminated
+2018-07-03 16:41:17 pid:1 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in F:\www\项目管理\项目进行中\playPoker\server.php:10
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 F:\www\项目管理\项目进行中\playPoker\server.php(31): Workerman\Worker::runAll()
+#9 {main}
+2018-07-03 16:41:17 pid:1 Worker process terminated
+2018-07-03 16:41:45 pid:1 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in F:\www\项目管理\项目进行中\playPoker\server.php:10
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 F:\www\项目管理\项目进行中\playPoker\server.php(31): Workerman\Worker::runAll()
+#9 {main}
+2018-07-03 16:41:45 pid:1 Worker process terminated
+2018-07-03 16:44:24 pid:1 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in F:\www\项目管理\项目进行中\playPoker\server.php:10
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 F:\www\项目管理\项目进行中\playPoker\server.php(31): Workerman\Worker::runAll()
+#9 {main}
+2018-07-03 16:44:24 pid:1 Worker process terminated
+2018-07-03 16:46:14 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(16): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(31): Workerman\Worker::runAll()
+#11 {main}
+2018-07-03 16:46:14 pid:1 Worker process terminated
+2018-07-03 16:47:05 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(16): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(31): Workerman\Worker::runAll()
+#11 {main}
+2018-07-03 16:47:05 pid:1 Worker process terminated
+2018-07-03 16:47:20 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(16): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(31): Workerman\Worker::runAll()
+#11 {main}
+2018-07-03 16:47:20 pid:1 Worker process terminated
+2018-07-03 16:48:30 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(16): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(31): Workerman\Worker::runAll()
+#11 {main}
+2018-07-03 16:48:30 pid:1 Worker process terminated
+2018-07-03 16:48:54 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(16): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(31): Workerman\Worker::runAll()
+#11 {main}
+2018-07-03 16:48:54 pid:1 Worker process terminated
+2018-07-03 16:49:02 pid:1 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in F:\www\项目管理\项目进行中\playPoker\server.php:10
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 F:\www\项目管理\项目进行中\playPoker\server.php(31): Workerman\Worker::runAll()
+#9 {main}
+2018-07-03 16:49:02 pid:1 Worker process terminated
+2018-07-03 16:49:28 pid:1 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in F:\www\项目管理\项目进行中\playPoker\server.php:10
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 F:\www\项目管理\项目进行中\playPoker\server.php(31): Workerman\Worker::runAll()
+#9 {main}
+2018-07-03 16:49:28 pid:1 Worker process terminated
+2018-07-03 16:50:03 pid:1 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in F:\www\项目管理\项目进行中\playPoker\server.php:10
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 F:\www\项目管理\项目进行中\playPoker\server.php(31): Workerman\Worker::runAll()
+#9 {main}
+2018-07-03 16:50:03 pid:1 Worker process terminated
+2018-07-04 09:25:22 pid:1 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in F:\www\项目管理\项目进行中\playPoker\server.php:9
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 F:\www\项目管理\项目进行中\playPoker\server.php(39): Workerman\Worker::runAll()
+#9 {main}
+2018-07-04 09:25:22 pid:1 Worker process terminated
+2018-07-04 09:26:44 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(23): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(53): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 09:26:44 pid:1 Worker process terminated
+2018-07-04 09:27:49 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(23): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(53): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 09:27:49 pid:1 Worker process terminated
+2018-07-04 09:30:25 pid:1 Error: Cannot use object of type stdClass as array in F:\www\项目管理\项目进行中\playPoker\server.php:41
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"seatid":1,"po...')
+#1 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"seatid":1,"po...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #20)
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 F:\www\项目管理\项目进行中\playPoker\server.php(55): Workerman\Worker::runAll()
+#9 {main}
+2018-07-04 09:30:25 pid:1 Worker process terminated
+2018-07-04 09:33:01 pid:1 Error: Cannot use object of type stdClass as array in F:\www\项目管理\项目进行中\playPoker\server.php:35
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"seatid":1,"po...')
+#1 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"seatid":1,"po...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 F:\www\项目管理\项目进行中\playPoker\server.php(49): Workerman\Worker::runAll()
+#9 {main}
+2018-07-04 09:33:01 pid:1 Worker process terminated
+2018-07-04 09:34:32 pid:1 Error: Cannot use object of type stdClass as array in F:\www\项目管理\项目进行中\playPoker\server.php:33
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"seatid":1,"po...')
+#1 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"seatid":1,"po...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 F:\www\项目管理\项目进行中\playPoker\server.php(47): Workerman\Worker::runAll()
+#9 {main}
+2018-07-04 09:34:32 pid:1 Worker process terminated
+2018-07-04 09:36:20 pid:1 Error: Cannot use object of type stdClass as array in F:\www\项目管理\项目进行中\playPoker\server.php:33
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"roomid":1,"us...')
+#1 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"roomid":1,"us...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 F:\www\项目管理\项目进行中\playPoker\server.php(47): Workerman\Worker::runAll()
+#9 {main}
+2018-07-04 09:36:20 pid:1 Worker process terminated
+2018-07-04 09:37:25 pid:1 Error: Cannot use object of type stdClass as array in F:\www\项目管理\项目进行中\playPoker\server.php:33
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"roomid":1,"us...')
+#1 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"roomid":1,"us...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 F:\www\项目管理\项目进行中\playPoker\server.php(47): Workerman\Worker::runAll()
+#9 {main}
+2018-07-04 09:37:25 pid:1 Worker process terminated
+2018-07-04 09:42:08 pid:1 Error: Cannot use object of type stdClass as array in F:\www\项目管理\项目进行中\playPoker\server.php:33
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"roomid":1,"us...')
+#1 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"roomid":1,"us...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 F:\www\项目管理\项目进行中\playPoker\server.php(47): Workerman\Worker::runAll()
+#9 {main}
+2018-07-04 09:42:08 pid:1 Worker process terminated
+2018-07-04 09:42:12 pid:1 Error: Cannot use object of type stdClass as array in F:\www\项目管理\项目进行中\playPoker\server.php:33
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"roomid":1,"us...')
+#1 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"roomid":1,"us...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 F:\www\项目管理\项目进行中\playPoker\server.php(47): Workerman\Worker::runAll()
+#9 {main}
+2018-07-04 09:42:12 pid:1 Worker process terminated
+2018-07-04 14:09:20 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:09:20 pid:1 Worker process terminated
+2018-07-04 14:22:43 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:22:43 pid:1 Worker process terminated
+2018-07-04 14:24:53 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:24:53 pid:1 Worker process terminated
+2018-07-04 14:25:16 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:25:16 pid:1 Worker process terminated
+2018-07-04 14:26:12 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:26:12 pid:1 Worker process terminated
+2018-07-04 14:28:59 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:28:59 pid:1 Worker process terminated
+2018-07-04 14:29:49 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:29:49 pid:1 Worker process terminated
+2018-07-04 14:29:59 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:29:59 pid:1 Worker process terminated
+2018-07-04 14:30:57 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:30:57 pid:1 Worker process terminated
+2018-07-04 14:31:38 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:31:38 pid:1 Worker process terminated
+2018-07-04 14:32:36 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:32:36 pid:1 Worker process terminated
+2018-07-04 14:33:18 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:33:18 pid:1 Worker process terminated
+2018-07-04 14:34:05 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:34:05 pid:1 Worker process terminated
+2018-07-04 14:34:55 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:34:55 pid:1 Worker process terminated
+2018-07-04 14:35:06 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:35:06 pid:1 Worker process terminated
+2018-07-04 14:35:17 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:35:17 pid:1 Worker process terminated
+2018-07-04 14:35:35 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:35:35 pid:1 Worker process terminated
+2018-07-04 14:37:03 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:37:03 pid:1 Worker process terminated
+2018-07-04 14:48:45 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:48:45 pid:1 Worker process terminated
+2018-07-04 14:48:46 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:48:46 pid:1 Worker process terminated
+2018-07-04 14:49:01 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:49:01 pid:1 Worker process terminated
+2018-07-04 14:49:53 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:49:53 pid:1 Worker process terminated
+2018-07-04 14:49:58 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:49:58 pid:1 Worker process terminated
+2018-07-04 14:50:23 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:50:23 pid:1 Worker process terminated
+2018-07-04 14:54:27 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:54:27 pid:1 Worker process terminated
+2018-07-04 14:54:58 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:54:58 pid:1 Worker process terminated
+2018-07-04 14:55:05 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:55:05 pid:1 Worker process terminated
+2018-07-04 14:55:13 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:55:13 pid:1 Worker process terminated
+2018-07-04 14:55:20 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:55:20 pid:1 Worker process terminated
+2018-07-04 14:55:27 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:55:27 pid:1 Worker process terminated
+2018-07-04 14:55:28 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:55:28 pid:1 Worker process terminated
+2018-07-04 14:56:07 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:56:07 pid:1 Worker process terminated
+2018-07-04 14:58:22 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 14:58:22 pid:1 Worker process terminated
+2018-07-04 15:09:41 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 15:09:41 pid:1 Worker process terminated
+2018-07-04 15:10:25 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 15:10:25 pid:1 Worker process terminated
+2018-07-04 15:11:07 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(30): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(40): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 15:11:07 pid:1 Worker process terminated
+2018-07-04 15:25:29 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(37): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(47): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 15:25:29 pid:1 Worker process terminated
+2018-07-04 15:25:34 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(27): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(47): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 15:25:34 pid:1 Worker process terminated
+2018-07-04 15:28:54 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(27): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(47): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 15:28:54 pid:1 Worker process terminated
+2018-07-04 15:28:57 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(37): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(47): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 15:28:57 pid:1 Worker process terminated
+2018-07-04 15:28:57 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(37): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(47): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 15:28:57 pid:1 Worker process terminated
+2018-07-04 15:30:37 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(37): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(47): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 15:30:37 pid:1 Worker process terminated
+2018-07-04 15:30:40 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(27): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(47): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 15:30:40 pid:1 Worker process terminated
+2018-07-04 15:31:34 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(37): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(47): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 15:31:34 pid:1 Worker process terminated
+2018-07-04 15:31:35 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(37): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(47): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 15:31:35 pid:1 Worker process terminated
+2018-07-04 15:34:21 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(37): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(47): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 15:34:21 pid:1 Worker process terminated
+2018-07-04 15:34:22 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(37): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":0}')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(47): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 15:34:22 pid:1 Worker process terminated
+2018-07-04 15:34:23 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(27): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(47): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 15:34:23 pid:1 Worker process terminated
+2018-07-04 15:35:27 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(27): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(47): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 15:35:27 pid:1 Worker process terminated
+2018-07-04 15:42:14 pid:1 Exception: You can't send(NULL) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(27): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(47): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 15:42:14 pid:1 Worker process terminated
+2018-07-04 15:44:13 pid:1 Exception: You can't send(array) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(Array, Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(23): Workerman\Connection\TcpConnection->send(Array)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"status":1,"in...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(48): Workerman\Worker::runAll()
+#11 {main}
+2018-07-04 15:44:13 pid:1 Worker process terminated
+2018-07-09 17:13:50 pid:1 Exception: You can't send(object) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(Object(stdClass), Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(24): Workerman\Connection\TcpConnection->send(Object(stdClass))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(151): Workerman\Worker::runAll()
+#11 {main}
+2018-07-09 17:13:50 pid:1 Worker process terminated
+2018-07-09 17:14:19 pid:1 Exception: You can't send(object) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(Object(stdClass), Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(24): Workerman\Connection\TcpConnection->send(Object(stdClass))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(151): Workerman\Worker::runAll()
+#11 {main}
+2018-07-09 17:14:19 pid:1 Worker process terminated
+2018-07-09 17:14:20 pid:1 Exception: You can't send(object) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(Object(stdClass), Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(24): Workerman\Connection\TcpConnection->send(Object(stdClass))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(151): Workerman\Worker::runAll()
+#11 {main}
+2018-07-09 17:14:20 pid:1 Worker process terminated
+2018-07-09 17:14:32 pid:1 Exception: You can't send(object) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(Object(stdClass), Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(24): Workerman\Connection\TcpConnection->send(Object(stdClass))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(151): Workerman\Worker::runAll()
+#11 {main}
+2018-07-09 17:14:32 pid:1 Worker process terminated
+2018-07-09 17:14:36 pid:1 Exception: You can't send(object) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(Object(stdClass), Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(24): Workerman\Connection\TcpConnection->send(Object(stdClass))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(151): Workerman\Worker::runAll()
+#11 {main}
+2018-07-09 17:14:36 pid:1 Worker process terminated
+2018-07-09 17:27:34 pid:1 Exception: You can't send(object) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(Object(stdClass), Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(24): Workerman\Connection\TcpConnection->send(Object(stdClass))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(151): Workerman\Worker::runAll()
+#11 {main}
+2018-07-09 17:27:34 pid:1 Worker process terminated
+2018-07-09 17:27:47 pid:1 Exception: You can't send(object) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(Object(stdClass), Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(24): Workerman\Connection\TcpConnection->send(Object(stdClass))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(151): Workerman\Worker::runAll()
+#11 {main}
+2018-07-09 17:27:47 pid:1 Worker process terminated
+2018-07-09 17:28:21 pid:1 Exception: You can't send(object) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(Object(stdClass), Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(24): Workerman\Connection\TcpConnection->send(Object(stdClass))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(151): Workerman\Worker::runAll()
+#11 {main}
+2018-07-09 17:28:21 pid:1 Worker process terminated
+2018-07-09 17:34:02 pid:1 Exception: You can't send(object) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(Object(stdClass), Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(24): Workerman\Connection\TcpConnection->send(Object(stdClass))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2293): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#4 [internal function]: Workerman\Worker->acceptConnection(Resource id #11)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(151): Workerman\Worker::runAll()
+#11 {main}
+2018-07-09 17:34:02 pid:1 Worker process terminated
+2018-07-09 17:36:14 pid:1 Error: Call to a member function send() on null in F:\www\项目管理\项目进行中\playPoker\server.php:150
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(915): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(820): Workerman\Connection\TcpConnection->destroy()
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php(105): Workerman\Connection\TcpConnection->close()
+#4 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(608): Workerman\Protocols\Websocket::input('\x88\x82\x88\xCA`\x12\x8B#', Object(Workerman\Connection\TcpConnection))
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#10 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#11 F:\www\项目管理\项目进行中\playPoker\server.php(152): Workerman\Worker::runAll()
+#12 {main}
+2018-07-09 17:36:14 pid:1 Worker process terminated
+2018-07-09 17:37:42 pid:1 Error: Call to a member function send() on null in F:\www\项目管理\项目进行中\playPoker\server.php:150
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(915): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(820): Workerman\Connection\TcpConnection->destroy()
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php(105): Workerman\Connection\TcpConnection->close()
+#4 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(608): Workerman\Protocols\Websocket::input('\x88\x82\xAB\x03\\\x12\xA8\xEA', Object(Workerman\Connection\TcpConnection))
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#10 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#11 F:\www\项目管理\项目进行中\playPoker\server.php(152): Workerman\Worker::runAll()
+#12 {main}
+2018-07-09 17:37:42 pid:1 Worker process terminated
+2018-07-09 17:42:51 pid:1 Exception: You can't send(object) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(Object(stdClass), Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(42): Workerman\Connection\TcpConnection->send(Object(stdClass))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"info":{"roomi...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"info":{"roomi...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(163): Workerman\Worker::runAll()
+#11 {main}
+2018-07-09 17:42:51 pid:1 Worker process terminated
+2018-07-09 17:43:12 pid:1 Exception: You can't send(object) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(Object(stdClass), Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(42): Workerman\Connection\TcpConnection->send(Object(stdClass))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"info":{"roomi...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"info":{"roomi...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(163): Workerman\Worker::runAll()
+#11 {main}
+2018-07-09 17:43:12 pid:1 Worker process terminated
+2018-07-09 17:43:17 pid:1 Exception: You can't send(object) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(Object(stdClass), Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(42): Workerman\Connection\TcpConnection->send(Object(stdClass))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"info":{"roomi...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"info":{"roomi...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(163): Workerman\Worker::runAll()
+#11 {main}
+2018-07-09 17:43:17 pid:1 Worker process terminated
+2018-07-09 17:43:42 pid:1 Exception: You can't send(object) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(Object(stdClass), Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(42): Workerman\Connection\TcpConnection->send(Object(stdClass))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"info":{"roomi...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"info":{"roomi...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(163): Workerman\Worker::runAll()
+#11 {main}
+2018-07-09 17:43:42 pid:1 Worker process terminated
+2018-07-09 17:43:48 pid:1 Exception: You can't send(object) to client, you need to convert it to a string.  in F:\www\项目管理\项目进行中\playPoker\Workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(336): Workerman\Protocols\Websocket::encode(Object(stdClass), Object(Workerman\Connection\TcpConnection))
+#1 F:\www\项目管理\项目进行中\playPoker\server.php(42): Workerman\Connection\TcpConnection->send(Object(stdClass))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"info":{"roomi...')
+#3 F:\www\项目管理\项目进行中\playPoker\Workerman\Connection\TcpConnection.php(645): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"info":{"roomi...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#5 F:\www\项目管理\项目进行中\playPoker\Workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(2226): Workerman\Events\Select->loop()
+#7 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1217): Workerman\Worker->run()
+#8 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(1160): Workerman\Worker::forkWorkersForWindows()
+#9 F:\www\项目管理\项目进行中\playPoker\Workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 F:\www\项目管理\项目进行中\playPoker\server.php(163): Workerman\Worker::runAll()
+#11 {main}
+2018-07-09 17:43:48 pid:1 Worker process terminated
