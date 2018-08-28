@@ -2,7 +2,7 @@
     require_once 'Workerman/Autoloader.php';
     use Workerman\Worker;
     // use Workerman\Protocols\Http;
-    $room=[[],[],[],[]];
+    $room=[[]];
     $clients=[];
     $btn_num=0;//用于判断几人已经点击过按钮(准备，抢地主)
     $play_poker=[];//用于保存刚打出的牌
