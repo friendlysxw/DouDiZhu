@@ -555,7 +555,7 @@ ws.onmessage=function(dataArr){
                 previnfo=clientinfo;
             }
             
-        }else if(data.status==8){  //游戏结束，重新开始
+        }else if(data.status==8){  //游戏结束，
             alert(data.wininfo);
             $(".poker").html('');
             $(".landlord3").html('');
@@ -563,14 +563,13 @@ ws.onmessage=function(dataArr){
             $("#my img,#prev img,#next img").attr("src","./images/peasant_1.jpg");
             data_json.status=10;
             ws.send(JSON.stringify(data_json));
-        }else if(data.status==10){
+        }else if(data.status==10){  //重新开始
+            alert('游戏结束');
             pokerArr=newpokerArr();
             sort_pokerArr=[];
             deal_pokerArr=[];
             select_pokers=[];
-            $(".prep").css("display",'block');
-            $(".person i").html('未准备');
-            $("#my i").html('');
+            window.location.reload(); 
         }
     //页面实时显示的信息=========================
         //用户名称展示
@@ -615,9 +614,6 @@ $(".poker").on('click','li',function(){  //点击牌,选择要出的牌
     select(thisobj);
 });
 //每次重新整理牌后为出牌按钮添加点击事件===================
-function play_poker(){
-     
-}
 $('.play-poker .yes').click(function(){
     if(vs(prevPokerInfo,outPokerInfo)!=false){
         data_json.status=4;

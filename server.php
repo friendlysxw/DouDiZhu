@@ -9,6 +9,7 @@
     $first_qiangid=null;
     $first_qiang_status=null;
     $last_qiangid=null;
+    
     $pokers=[
         'a2','a3','a4','a5','a6','a7','a8','a9','a10','aJ','aQ','aK','aA',
         'b2','b3','b4','b5','b6','b7','b8','b9','b10','bJ','bQ','bK','bA',
@@ -32,14 +33,14 @@
             $connection->send(json_encode($resp));
         }else if($req->status==1){ //进入房间
 
-            foreach($worker->connections as $c){    //给所有客户端推送消息
-                if($c->seatid==$connection->seatid){
-                    $resp->roomid=$connection->roomid;
-                    $resp->seatid=$c->seatid;
-                    $c->send(json_encode($resp));
-                }
+            // foreach($worker->connections as $c){    //给所有客户端推送消息
+            //     if($c->seatid==$connection->seatid){
+            //         $resp->roomid=$connection->roomid;
+            //         $resp->seatid=$c->seatid;
+            //         $c->send(json_encode($resp));
+            //     }
                 
-            };
+            // };
 
             $rid=$req->info->roomid; //进入房间id索引值
             $count=count($room[$rid]); //刚进去时的房间人数 
@@ -141,19 +142,23 @@
             $resp->play_seatid=$connection->seatid;
             
         }else if($req->status==10){
+            global $room;
             $resp->status=10;
         }
 
-        foreach($worker->connections as $c){    //给所有客户端推送消息
-            $resp->roomid=$connection->roomid;
-            $resp->seatid=$c->seatid;
-            $c->send(json_encode($resp));
-        };
+        if($req->status!=0){
+            foreach($worker->connections as $c){    //给所有客户端推送消息
+                $resp->roomid=$connection->roomid;
+                $resp->seatid=$c->seatid;
+                $c->send(json_encode($resp));
+            };
+        }
+        
 
     };
 
-    $worker->onClose=function(){
-        
-        
+    $worker->onClose=function($connection){
+        global $room;
+        // unset($room[$connection->roomid][$connection->seatid]);
     };
     Worker::runAll();

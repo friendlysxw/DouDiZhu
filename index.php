@@ -16,7 +16,7 @@
         </ul>
     </div>
 <script>
-    var server_addr="<?php echo $_SERVER['SERVER_ADDR'] ?>";
+    var server_addr="120.77.200.21";
     console.log(server_addr);
 </script>
 <script src="js/hall.js"></script>

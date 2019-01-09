@@ -61,7 +61,7 @@
         my.roomid= <?php echo $_GET['rid']; ?>;
         my.userid= <?php echo $_GET['uid']; ?>;
         my.username= <?php echo $_GET['uname']; ?>;
-        var server_addr="<?php echo $_SERVER['SERVER_ADDR'] ?>";
+        var server_addr="120.77.200.21";
     </script>
     
     <script src="./js/room.js"></script>

@@ -1,6 +1,6 @@
 // <?php echo $_SERVER['SERVER_ADDR'] ?>
-// ws =new WebSocket("ws://192.168.13.191:8123");
-ws =new WebSocket("ws://"+server_addr+":8123");
+ws =new WebSocket("ws://127.0.0.1:8123");
+// ws =new WebSocket("ws://"+server_addr+":8123");
 var hall={};
 //客户端接收的status:0,进入大厅
 ws.onopen=function(){
